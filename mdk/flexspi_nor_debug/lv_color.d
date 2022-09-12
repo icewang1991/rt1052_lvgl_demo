@@ -1,0 +1,13 @@
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\lv_color.c
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\lv_color.h
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\../lv_conf_internal.h
+flexspi_nor_debug\lv_color.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\../lv_conf_kconfig.h
+flexspi_nor_debug\lv_color.o: ..\lvgl\lv_conf.h
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\lv_assert.h
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\lv_log.h
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\lv_types.h
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\lv_mem.h
+flexspi_nor_debug\lv_color.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+flexspi_nor_debug\lv_color.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h
+flexspi_nor_debug\lv_color.o: ..\lvgl\src\misc\lv_math.h

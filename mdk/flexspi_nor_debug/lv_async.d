@@ -1,0 +1,13 @@
+flexspi_nor_debug\lv_async.o: ..\lvgl\src\misc\lv_async.c
+flexspi_nor_debug\lv_async.o: ..\lvgl\src\misc\lv_async.h
+flexspi_nor_debug\lv_async.o: ..\lvgl\src\misc\lv_types.h
+flexspi_nor_debug\lv_async.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h
+flexspi_nor_debug\lv_async.o: ..\lvgl\src\misc\lv_mem.h
+flexspi_nor_debug\lv_async.o: ..\lvgl\src\misc\../lv_conf_internal.h
+flexspi_nor_debug\lv_async.o: ..\lvgl\src\misc\../lv_conf_kconfig.h
+flexspi_nor_debug\lv_async.o: ..\lvgl\lv_conf.h
+flexspi_nor_debug\lv_async.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+flexspi_nor_debug\lv_async.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h
+flexspi_nor_debug\lv_async.o: ..\lvgl\src\misc\lv_timer.h
+flexspi_nor_debug\lv_async.o: ..\lvgl\src\misc\../hal/lv_hal_tick.h
+flexspi_nor_debug\lv_async.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdbool.h

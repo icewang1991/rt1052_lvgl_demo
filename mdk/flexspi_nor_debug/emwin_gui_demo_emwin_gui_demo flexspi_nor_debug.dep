@@ -1,0 +1,603 @@
+Dependencies for Project 'emwin_gui_demo', Target 'emwin_gui_demo flexspi_nor_debug': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (../emwin_gui_demo.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\emwin_gui_demo.o --omf_browse flexspi_nor_debug\emwin_gui_demo.crf --depend flexspi_nor_debug\emwin_gui_demo.d)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../board.h)(0x5B2C9584)
+I (../clock_config.h)(0x5B1612A6)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+I (../emwin_support.h)(0x6274FE4E)
+I (../../../../../middleware/emwin/emWin_header/GUI.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GUI_ConfDefaults.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_Config/GUIConf.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GUI_Type.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/LCD.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/Global.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GUI_Version.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/BUTTON.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/WM.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/WM_GUI.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/DIALOG_Intern.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/WIDGET.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/WM_Intern.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GUI_Private.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/LCD_Protected.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GUI_Debug.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../../../../../middleware/emwin/emWin_header/SCROLLBAR.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/CHECKBOX.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/SLIDER.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/DROPDOWN.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/LISTBOX.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/RADIO.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/MULTIPAGE.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/DIALOG.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/CALENDAR.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/CHOOSECOLOR.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/CHOOSEFILE.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/EDIT.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/FRAMEWIN.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GRAPH.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/HEADER.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/ICONVIEW.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/IMAGE.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/LISTVIEW.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/LISTWHEEL.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/MENU.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/MULTIEDIT.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/PROGBAR.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/SPINBOX.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/SWIPELIST.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/TEXT.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/TREEVIEW.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/KNOB.h)(0x5B34A990)
+I (../pin_mux.h)(0x5B1612A6)
+F (../pin_mux.c)(0x5B2CA70D)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\pin_mux.o --omf_browse flexspi_nor_debug\pin_mux.crf --depend flexspi_nor_debug\pin_mux.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_iomuxc.h)(0x5B34A990)
+I (../pin_mux.h)(0x5B1612A6)
+F (../pin_mux.h)(0x5B1612A6)()
+F (../emwin_support.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\emwin_support.o --omf_browse flexspi_nor_debug\emwin_support.crf --depend flexspi_nor_debug\emwin_support.d)
+I (../../../../../middleware/emwin/emWin_header/GUI.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GUI_ConfDefaults.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_Config/GUIConf.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GUI_Type.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/LCD.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/Global.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/GUI_Version.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/WM.h)(0x5B34A990)
+I (../../../../../middleware/emwin/emWin_header/WM_GUI.h)(0x5B34A990)
+I (../emwin_support.h)(0x6274FE4E)
+I (../../../../../middleware/emwin/emWin_header/GUIDRV_Lin.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_elcdif.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_lpi2c.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../fsl_ft5406_rt.h)(0x5B1612A6)
+F (../emwin_support.h)(0x6274FE4E)()
+F (../board.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\board.o --omf_browse flexspi_nor_debug\board.crf --depend flexspi_nor_debug\board.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../board.h)(0x5B2C9584)
+I (../clock_config.h)(0x5B1612A6)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+F (../board.h)(0x5B2C9584)()
+F (../clock_config.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\clock_config.o --omf_browse flexspi_nor_debug\clock_config.crf --depend flexspi_nor_debug\clock_config.d)
+I (../clock_config.h)(0x5B1612A6)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../clock_config.h)(0x5B1612A6)()
+F (../readme.txt)(0x5B1612A6)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_elcdif.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_elcdif.o --omf_browse flexspi_nor_debug\fsl_elcdif.crf --depend flexspi_nor_debug\fsl_elcdif.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_elcdif.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/drivers/fsl_elcdif.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_pxp.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_pxp.o --omf_browse flexspi_nor_debug\fsl_pxp.crf --depend flexspi_nor_debug\fsl_pxp.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_pxp.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/drivers/fsl_pxp.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_common.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_common.o --omf_browse flexspi_nor_debug\fsl_common.crf --depend flexspi_nor_debug\fsl_common.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_clock.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_clock.o --omf_browse flexspi_nor_debug\fsl_clock.crf --depend flexspi_nor_debug\fsl_clock.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+F (../../../../../devices/MIMXRT1052/drivers/fsl_lpi2c.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_lpi2c.o --omf_browse flexspi_nor_debug\fsl_lpi2c.crf --depend flexspi_nor_debug\fsl_lpi2c.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_lpi2c.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/drivers/fsl_lpi2c.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_lpuart.o --omf_browse flexspi_nor_debug\fsl_lpuart.crf --depend flexspi_nor_debug\fsl_lpuart.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/drivers/fsl_iomuxc.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/drivers/fsl_gpio.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_gpio.o --omf_browse flexspi_nor_debug\fsl_gpio.crf --depend flexspi_nor_debug\fsl_gpio.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../fsl_ft5406_rt.h)(0x5B1612A6)()
+F (../fsl_ft5406_rt.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_ft5406_rt.o --omf_browse flexspi_nor_debug\fsl_ft5406_rt.crf --depend flexspi_nor_debug\fsl_ft5406_rt.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_lpi2c.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../fsl_ft5406_rt.h)(0x5B1612A6)
+F (../../../../../devices/MIMXRT1052/system_MIMXRT1052.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\system_mimxrt1052.o --omf_browse flexspi_nor_debug\system_mimxrt1052.crf --depend flexspi_nor_debug\system_mimxrt1052.d)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+F (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/arm/startup_MIMXRT1052.s)(0x5B7FD23A)(--cpu Cortex-M7.fp.dp -g --apcs=interwork --pd "__MICROLIB SETA 1"-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "CPU_MIMXRT1052DVL6B SETA 1" --pd "__STARTUP_INITIALIZE_NONCACHEDATA SETA 1"--list .\output\startup_mimxrt1052.lst -o flexspi_nor_debug\startup_mimxrt1052.o --depend flexspi_nor_debug\startup_mimxrt1052.d)
+F (../../../../../devices/MIMXRT1052/utilities/io/fsl_io.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_io.o --omf_browse flexspi_nor_debug\fsl_io.crf --depend flexspi_nor_debug\fsl_io.d)
+I (../../../../../devices/MIMXRT1052/utilities/io/fsl_io.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/utilities/io/fsl_io.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/utilities/log/fsl_log.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_log.o --omf_browse flexspi_nor_debug\fsl_log.crf --depend flexspi_nor_debug\fsl_log.d)
+I (../../../../../devices/MIMXRT1052/utilities/log/fsl_log.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/io/fsl_io.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/utilities/log/fsl_log.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/utilities/str/fsl_str.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_str.o --omf_browse flexspi_nor_debug\fsl_str.crf --depend flexspi_nor_debug\fsl_str.d)
+I (E:\mdk\exe\ARM\ARMCC\include\math.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/utilities/str/fsl_str.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/utilities/str/fsl_str.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_debug_console.o --omf_browse flexspi_nor_debug\fsl_debug_console.crf --depend flexspi_nor_debug\fsl_debug_console.d)
+I (E:\mdk\exe\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (E:\mdk\exe\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/log/fsl_log.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/str/fsl_str.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)()
+F (../../../../../devices/MIMXRT1052/utilities/fsl_assert.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_assert.o --omf_browse flexspi_nor_debug\fsl_assert.crf --depend flexspi_nor_debug\fsl_assert.d)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.h)(0x5B1612A6)()
+F (../../../../../devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\fsl_flexspi_nor_boot.o --omf_browse flexspi_nor_debug\fsl_flexspi_nor_boot.crf --depend flexspi_nor_debug\fsl_flexspi_nor_boot.d)
+I (../../../../../devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.h)(0x5B1612A6)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\board.h)(0x5B2C9584)
+I (..\clock_config.h)(0x5B1612A6)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_flexspi_nor_config.c)(0x62A9320E)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\evkbimxrt1050_flexspi_nor_config.o --omf_browse flexspi_nor_debug\evkbimxrt1050_flexspi_nor_config.crf --depend flexspi_nor_debug\evkbimxrt1050_flexspi_nor_config.d)
+I (../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_flexspi_nor_config.h)(0x5B1612A6)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (E:\mdk\exe\ARM\ARMCC\include\assert.h)(0x60252378)
+I (E:\mdk\exe\ARM\ARMCC\include\string.h)(0x6025237E)
+I (E:\mdk\exe\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_flexspi_nor_config.h)(0x5B1612A6)()
+F (../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_sdram_ini_dcd.c)(0x5BDA98A8)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../CMSIS/Include -I ../../../../../devices -I ../../.. -I ../../../../../middleware/emwin/emWin_Config -I ../../../../../middleware/emwin/emWin_header -I .. -I ../../../../../devices/MIMXRT1052/drivers -I ../../../../../devices/MIMXRT1052 -I ../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../devices/MIMXRT1052/utilities -I ../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1-IE:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1\Device\Include-D__UVISION_VERSION="536" -DCPU_MIMXRT1052DVL6B -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_ENABLE="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DCPU_MIMXRT1052DVL6B-o flexspi_nor_debug\evkbimxrt1050_sdram_ini_dcd.o --omf_browse flexspi_nor_debug\evkbimxrt1050_sdram_ini_dcd.crf --depend flexspi_nor_debug\evkbimxrt1050_sdram_ini_dcd.d)
+I (../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_sdram_ini_dcd.h)(0x5B1612A6)
+I (E:\mdk\exe\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_sdram_ini_dcd.h)(0x5B1612A6)()
+F (../../../../../middleware/emwin/emWin_header/BUTTON.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/BUTTON_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/CALENDAR.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/CHECKBOX.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/CHECKBOX_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/CHOOSECOLOR.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/CHOOSEFILE.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/DIALOG.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/DIALOG_Intern.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/DROPDOWN.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/DROPDOWN_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/EDIT.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/EDIT_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/FRAMEWIN.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/FRAMEWIN_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/Global.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GRAPH.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GRAPH_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI__BiDi2_Brackets_800.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI__BiDi2_Types_800.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_ARRAY.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_ARRAY_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_BMP_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_ConfDefaults.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_Debug.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_FontIntern.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_GCache_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_GIF_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_HOOK.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_JPEG_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_SetOrientation.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_SetOrientationCX.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_SPRITE_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_Type.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_Version.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUI_VNC.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_BitPlains.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_DCache.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_DCache_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_Dist.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_FlexColor.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_FlexColor_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_IST3088.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_IST3088_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_Lin.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_Lin_Opt_16.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_Lin_Opt_24.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_Lin_Opt_32.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_Lin_Opt_8.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_Lin_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_NoOpt_1_8.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_S1D13748.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_S1D13748_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_S1D13781.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_S1D13781_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_S1D15G00.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_SLin.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_SLin_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_SPage.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_SPage_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_SSD1926.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_SSD1926_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_Template.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_TemplateI.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUIDRV_TemplateI_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/GUITDRV_ADS7846.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/HEADER.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/HEADER_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/ICONVIEW.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/ICONVIEW_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/IMAGE.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/IMAGE_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/IP_FS.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/KNOB.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/KNOB_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LCD.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LCD_ConfDefaults.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LCD_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LCD_Protected.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LCD_SIM.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LISTBOX.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LISTBOX_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LISTVIEW.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LISTVIEW_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LISTWHEEL.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/LISTWHEEL_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/MENU.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/MENU_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/MESSAGEBOX.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/MULTIEDIT.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/MULTIPAGE.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/MULTIPAGE_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/PROGBAR.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/PROGBAR_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/RADIO.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/RADIO_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SCROLLBAR.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SCROLLBAR_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SEGGER.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SLIDER.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SLIDER_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SPINBOX.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SPINBOX_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SWIPELIST.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/SWIPELIST_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/TEXT.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/TEXT_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/TREEVIEW.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/TREEVIEW_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/WIDGET.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/WINDOW_Private.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/WM.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/WM_GUI.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_header/WM_Intern.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_Config/GUIConf.h)(0x5B34A990)()
+F (../../../../../middleware/emwin/emWin_Config/LCDConf.h)(0x5B34A990)()

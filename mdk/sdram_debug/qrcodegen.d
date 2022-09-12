@@ -1,0 +1,9 @@
+sdram_debug\qrcodegen.o: ..\lvgl\src\extra\libs\qrcode\qrcodegen.c
+sdram_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\assert.h
+sdram_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\limits.h
+sdram_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdlib.h
+sdram_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h
+sdram_debug\qrcodegen.o: ..\lvgl\src\extra\libs\qrcode\qrcodegen.h
+sdram_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdbool.h
+sdram_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+sdram_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h

@@ -1,0 +1,16 @@
+sdram_debug\lv_font.o: ..\lvgl\src\font\lv_font.c
+sdram_debug\lv_font.o: ..\lvgl\src\font\lv_font.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\../lv_conf_internal.h
+sdram_debug\lv_font.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\../lv_conf_kconfig.h
+sdram_debug\lv_font.o: ..\lvgl\lv_conf.h
+sdram_debug\lv_font.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+sdram_debug\lv_font.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdbool.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\lv_symbol_def.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\../misc/lv_area.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\../misc/lv_utils.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\../misc/lv_log.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\../misc/lv_types.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\../misc/lv_assert.h
+sdram_debug\lv_font.o: ..\lvgl\src\font\../misc/lv_mem.h
+sdram_debug\lv_font.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h

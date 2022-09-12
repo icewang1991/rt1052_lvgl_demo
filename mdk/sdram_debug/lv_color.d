@@ -1,0 +1,13 @@
+sdram_debug\lv_color.o: ..\lvgl\src\misc\lv_color.c
+sdram_debug\lv_color.o: ..\lvgl\src\misc\lv_color.h
+sdram_debug\lv_color.o: ..\lvgl\src\misc\../lv_conf_internal.h
+sdram_debug\lv_color.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h
+sdram_debug\lv_color.o: ..\lvgl\src\misc\../lv_conf_kconfig.h
+sdram_debug\lv_color.o: ..\lvgl\lv_conf.h
+sdram_debug\lv_color.o: ..\lvgl\src\misc\lv_assert.h
+sdram_debug\lv_color.o: ..\lvgl\src\misc\lv_log.h
+sdram_debug\lv_color.o: ..\lvgl\src\misc\lv_types.h
+sdram_debug\lv_color.o: ..\lvgl\src\misc\lv_mem.h
+sdram_debug\lv_color.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+sdram_debug\lv_color.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h
+sdram_debug\lv_color.o: ..\lvgl\src\misc\lv_math.h

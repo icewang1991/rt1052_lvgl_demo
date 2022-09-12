@@ -1,0 +1,14 @@
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\lv_anim_timeline.c
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\lv_anim_timeline.h
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\lv_anim.h
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\../lv_conf_internal.h
+sdram_debug\lv_anim_timeline.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\../lv_conf_kconfig.h
+sdram_debug\lv_anim_timeline.o: ..\lvgl\lv_conf.h
+sdram_debug\lv_anim_timeline.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdbool.h
+sdram_debug\lv_anim_timeline.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\lv_mem.h
+sdram_debug\lv_anim_timeline.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\lv_types.h
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\lv_assert.h
+sdram_debug\lv_anim_timeline.o: ..\lvgl\src\misc\lv_log.h

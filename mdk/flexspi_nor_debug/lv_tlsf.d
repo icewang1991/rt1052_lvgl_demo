@@ -1,0 +1,13 @@
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\src\misc\lv_tlsf.c
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\src\misc\../lv_conf_internal.h
+flexspi_nor_debug\lv_tlsf.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\src\misc\../lv_conf_kconfig.h
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\lv_conf.h
+flexspi_nor_debug\lv_tlsf.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\limits.h
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\src\misc\lv_tlsf.h
+flexspi_nor_debug\lv_tlsf.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\src\misc\lv_mem.h
+flexspi_nor_debug\lv_tlsf.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\src\misc\lv_types.h
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\src\misc\lv_log.h
+flexspi_nor_debug\lv_tlsf.o: ..\lvgl\src\misc\lv_assert.h

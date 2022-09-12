@@ -1,0 +1,10 @@
+flexspi_nor_debug\lv_printf.o: ..\lvgl\src\misc\lv_printf.c
+flexspi_nor_debug\lv_printf.o: ..\lvgl\src\misc\lv_printf.h
+flexspi_nor_debug\lv_printf.o: ..\lvgl\src\misc\../lv_conf_internal.h
+flexspi_nor_debug\lv_printf.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h
+flexspi_nor_debug\lv_printf.o: ..\lvgl\src\misc\../lv_conf_kconfig.h
+flexspi_nor_debug\lv_printf.o: ..\lvgl\lv_conf.h
+flexspi_nor_debug\lv_printf.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdarg.h
+flexspi_nor_debug\lv_printf.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+flexspi_nor_debug\lv_printf.o: ..\lvgl\src\misc\lv_types.h
+flexspi_nor_debug\lv_printf.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdbool.h

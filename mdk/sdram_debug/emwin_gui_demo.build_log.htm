@@ -1,0 +1,1565 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ice l, ice, LIC=32B1Q-N3HKE-NNIAF-665P2-BLK29-X3CG7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  E:\mdk\exe\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\TechnologyReference\EasyARM_RT1052\SDK_2.4.1_Easy-RT1052-V1_0\boards\Easy-RT1052-V1_0\lvgl_examples\emwin_gui_demo\mdk\lvgl_gui_demo.uvprojx
+Project File Date:  09/07/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\mdk\exe\ARM\ARMCC\Bin'
+Rebuild target 'emwin_gui_demo sdram_debug'
+compiling hal_lcd.c...
+..\hal_lcd.c(182): warning:  #1-D: last line of file ends without a newline
+  }
+..\hal_lcd.c(108): warning:  #177-D: function "BOARD_Touch_Init"  was declared but never referenced
+  static void BOARD_Touch_Init(void)
+..\hal_lcd.c: 2 warnings, 0 errors
+compiling clock_config.c...
+compiling fsl_pxp.c...
+compiling board.c...
+compiling fsl_elcdif.c...
+compiling pin_mux.c...
+compiling emwin_gui_demo.c...
+compiling fsl_common.c...
+compiling fsl_gpio.c...
+compiling fsl_lpi2c.c...
+assembling startup_MIMXRT1052.s...
+compiling fsl_ft5406_rt.c...
+compiling fsl_clock.c...
+compiling fsl_pit.c...
+compiling fsl_lpuart.c...
+compiling system_MIMXRT1052.c...
+compiling fsl_assert.c...
+compiling evkbimxrt1050_sdram_ini_dcd.c...
+compiling lv_disp.c...
+compiling lv_event.c...
+..\lvgl\src\core\lv_event.c(120): warning:  #188-D: enumerated type mixed with another type
+      return e->code & ~LV_EVENT_PREPROCESS;
+..\lvgl\src\core\lv_event.c: 1 warning, 0 errors
+compiling lv_group.c...
+compiling fsl_str.c...
+compiling fsl_io.c...
+compiling fsl_flexspi_nor_boot.c...
+compiling fsl_debug_console.c...
+compiling lv_indev.c...
+compiling fsl_log.c...
+compiling lv_indev_scroll.c...
+compiling lv_obj_class.c...
+compiling lv_obj_draw.c...
+..\lvgl\src\core\lv_obj_draw.c(400): warning:  #188-D: enumerated type mixed with another type
+      if(obj->spec_attr) return obj->spec_attr->layer_type;
+..\lvgl\src\core\lv_obj_draw.c: 1 warning, 0 errors
+compiling lv_obj.c...
+compiling lv_obj_style_gen.c...
+compiling evkbimxrt1050_flexspi_nor_config.c...
+compiling lv_obj_tree.c...
+compiling lv_obj_style.c...
+compiling lv_obj_scroll.c...
+compiling lv_obj_pos.c...
+compiling lv_draw.c...
+compiling lv_refr.c...
+compiling lv_draw_arc.c...
+compiling lv_theme.c...
+compiling lv_draw_img.c...
+compiling lv_draw_layer.c...
+compiling lv_draw_label.c...
+compiling lv_draw_line.c...
+compiling lv_draw_rect.c...
+compiling lv_draw_transform.c...
+compiling lv_draw_triangle.c...
+compiling lv_img_buf.c...
+compiling lv_img_cache.c...
+compiling lv_draw_pxp_blend.c...
+compiling lv_gpu_nxp_pxp.c...
+compiling lv_gpu_arm2d.c...
+compiling lv_img_decoder.c...
+compiling lv_draw_mask.c...
+compiling lv_gpu_nxp_pxp_osa.c...
+compiling lv_draw_vglite_arc.c...
+compiling lv_draw_vglite_blend.c...
+compiling lv_draw_vglite_rect.c...
+compiling lv_gpu_nxp_vglite.c...
+compiling lv_gpu_nxp.c...
+compiling lv_draw_sw.c...
+compiling lv_gpu_stm32_dma2d.c...
+compiling lv_draw_sw_dither.c...
+compiling lv_draw_sw_gradient.c...
+compiling lv_draw_sw_arc.c...
+compiling lv_draw_sw_img.c...
+compiling lv_draw_sw_blend.c...
+compiling lv_draw_sw_layer.c...
+compiling lv_draw_sw_letter.c...
+compiling lv_draw_sw_polygon.c...
+compiling lv_draw_sw_line.c...
+compiling lv_gpu_swm341_dma2d.c...
+compiling lv_draw_sw_transform.c...
+compiling lv_bmp.c...
+compiling lv_flex.c...
+compiling lv_ffmpeg.c...
+compiling lv_draw_sw_rect.c...
+..\lvgl\src\draw\sw\lv_draw_sw_rect.c(238): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "mask_any_center"  (declared at line 285)
+          goto bg_clean_up;
+          ^
+..\lvgl\src\draw\sw\lv_draw_sw_rect.c: 1 warning, 0 errors
+compiling lv_grid.c...
+..\lvgl\src\extra\layouts\grid\lv_grid.c(591): warning:  #188-D: enumerated type mixed with another type
+      lv_grid_align_t col_align = get_cell_col_align(item);
+..\lvgl\src\extra\layouts\grid\lv_grid.c(592): warning:  #188-D: enumerated type mixed with another type
+      lv_grid_align_t row_align = get_cell_row_align(item);
+..\lvgl\src\extra\layouts\grid\lv_grid.c: 2 warnings, 0 errors
+compiling lv_freetype.c...
+compiling lv_fs_fatfs.c...
+compiling gifdec.c...
+compiling lv_fs_posix.c...
+compiling lv_fs_stdio.c...
+compiling lv_fs_win32.c...
+compiling lv_gif.c...
+compiling lodepng.c...
+compiling lv_png.c...
+compiling lv_qrcode.c...
+compiling tjpgd.c...
+compiling lv_fragment.c...
+compiling lv_fragment_manager.c...
+compiling lv_rlottie.c...
+compiling lv_sjpg.c...
+compiling lv_gridnav.c...
+compiling qrcodegen.c...
+..\lvgl\src\extra\libs\qrcode\qrcodegen.c(278): warning:  #188-D: enumerated type mixed with another type
+  	applyMask(tempBuffer, qrcode, mask);
+..\lvgl\src\extra\libs\qrcode\qrcodegen.c(279): warning:  #188-D: enumerated type mixed with another type
+  	drawFormatBits(ecl, mask, qrcode);
+..\lvgl\src\extra\libs\qrcode\qrcodegen.c: 2 warnings, 0 errors
+compiling lv_ime_pinyin.c...
+compiling lv_imgfont.c...
+compiling lv_monkey.c...
+compiling lv_msg.c...
+compiling lv_snapshot.c...
+compiling lv_theme_basic.c...
+compiling lv_calendar_header_arrow.c...
+compiling lv_calendar_header_dropdown.c...
+compiling lv_animimg.c...
+compiling lv_theme_mono.c...
+compiling lv_calendar.c...
+compiling lv_theme_default.c...
+..\lvgl\src\extra\themes\default\lv_theme_default.c(213): warning:  #188-D: enumerated type mixed with another type
+..\lvgl\src\extra\themes\default\lv_theme_default.c: 1 warning, 0 errors
+compiling lv_keyboard.c...
+compiling lv_list.c...
+compiling lv_imgbtn.c...
+compiling lv_led.c...
+compiling lv_colorwheel.c...
+compiling lv_menu.c...
+compiling lv_chart.c...
+compiling lv_msgbox.c...
+compiling lv_spinner.c...
+compiling lv_meter.c...
+compiling lv_spinbox.c...
+compiling lv_tabview.c...
+compiling lv_span.c...
+..\lvgl\src\extra\widgets\span\lv_span.c(901): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "align"  (declared at line 905)
+              goto Next_line_init;
+              ^
+..\lvgl\src\extra\widgets\span\lv_span.c: 1 warning, 0 errors
+compiling lv_font.c...
+compiling lv_tileview.c...
+compiling lv_win.c...
+compiling lv_extra.c...
+compiling lv_font_fmt_txt.c...
+..\lvgl\src\font\lv_font_fmt_txt.c(137): warning:  #111-D: statement is unreachable
+      return NULL;
+..\lvgl\src\font\lv_font_fmt_txt.c: 1 warning, 0 errors
+compiling lv_font_dejavu_16_persian_hebrew.c...
+compiling lv_font_montserrat_8.c...
+compiling lv_font_montserrat_10.c...
+compiling lv_font_loader.c...
+compiling lv_font_montserrat_12.c...
+compiling lv_font_montserrat_12_subpx.c...
+compiling lv_font_montserrat_16.c...
+compiling lv_font_montserrat_14.c...
+compiling lv_font_montserrat_18.c...
+compiling lv_font_montserrat_20.c...
+compiling lv_font_montserrat_24.c...
+compiling lv_font_montserrat_22.c...
+compiling lv_font_montserrat_26.c...
+compiling lv_font_montserrat_28.c...
+compiling lv_font_montserrat_28_compressed.c...
+compiling lv_font_montserrat_30.c...
+compiling lv_font_montserrat_32.c...
+compiling lv_font_montserrat_36.c...
+compiling lv_font_montserrat_34.c...
+compiling lv_font_montserrat_38.c...
+compiling lv_font_montserrat_40.c...
+compiling lv_font_montserrat_42.c...
+compiling lv_font_montserrat_44.c...
+compiling lv_font_montserrat_46.c...
+compiling lv_hal_tick.c...
+compiling lv_font_unscii_8.c...
+compiling lv_font_montserrat_48.c...
+compiling lv_font_unscii_16.c...
+compiling lv_font_simsun_16_cjk.c...
+compiling lv_hal_indev.c...
+compiling lv_hal_disp.c...
+..\lvgl\src\hal\lv_hal_disp.c(572): warning:  #188-D: enumerated type mixed with another type
+      return disp->driver->rotated;
+..\lvgl\src\hal\lv_hal_disp.c: 1 warning, 0 errors
+compiling lv_anim_timeline.c...
+compiling lv_async.c...
+compiling lv_anim.c...
+compiling lv_bidi.c...
+compiling lv_fs.c...
+compiling lv_area.c...
+compiling lv_gc.c...
+compiling lv_ll.c...
+compiling lv_color.c...
+compiling lv_log.c...
+compiling lv_lru.c...
+..\lvgl\src\misc\lv_lru.c(241): warning:  #68-D: integer conversion resulted in a change of sign
+      uint32_t i = 0, min_index = -1;
+..\lvgl\src\misc\lv_lru.c(242): warning:  #68-D: integer conversion resulted in a change of sign
+      uint64_t min_access_count = -1;
+..\lvgl\src\misc\lv_lru.c: 2 warnings, 0 errors
+compiling lv_style_gen.c...
+compiling lv_timer.c...
+compiling lv_templ.c...
+compiling lv_math.c...
+compiling lv_printf.c...
+compiling lv_mem.c...
+..\lvgl\src\misc\lv_mem.c(325): warning:  #111-D: statement is unreachable
+      return NULL;
+..\lvgl\src\misc\lv_mem.c: 1 warning, 0 errors
+compiling lv_style.c...
+..\lvgl\src\misc\lv_style.c(213): warning:  #188-D: enumerated type mixed with another type
+      return last_custom_prop_id;
+..\lvgl\src\misc\lv_style.c(218): warning:  #188-D: enumerated type mixed with another type
+      return last_custom_prop_id - _LV_STYLE_LAST_BUILT_IN_PROP;
+..\lvgl\src\misc\lv_style.c(289): warning:  #188-D: enumerated type mixed with another type
+      lv_style_set_prop_internal(style, prop | meta, null_style_value, lv_style_set_prop_meta_helper);
+..\lvgl\src\misc\lv_style.c: 3 warnings, 0 errors
+compiling lv_txt_ap.c...
+compiling lv_bar.c...
+compiling lv_btn.c...
+compiling lv_utils.c...
+compiling lv_arc.c...
+compiling lv_txt.c...
+compiling lv_tlsf.c...
+..\lvgl\src\misc\lv_tlsf.c(898): warning:  #68-D: integer conversion resulted in a change of sign
+          offset_to_block(pool, -(int)block_header_overhead);
+..\lvgl\src\misc\lv_tlsf.c(1000): warning:  #68-D: integer conversion resulted in a change of sign
+      block = offset_to_block(mem, -(tlsfptr_t)block_header_overhead);
+..\lvgl\src\misc\lv_tlsf.c(1018): warning:  #68-D: integer conversion resulted in a change of sign
+      block_header_t * block = offset_to_block(pool, -(int)block_header_overhead);
+..\lvgl\src\misc\lv_tlsf.c: 3 warnings, 0 errors
+compiling lv_label.c...
+compiling lv_checkbox.c...
+compiling lv_line.c...
+compiling lv_img.c...
+compiling lv_canvas.c...
+compiling lv_btnmatrix.c...
+compiling lv_dropdown.c...
+compiling lv_port_disp.c...
+compiling lv_roller.c...
+compiling lv_switch.c...
+compiling lv_objx_templ.c...
+compiling lv_slider.c...
+compiling lv_port_fs.c...
+compiling lv_textarea.c...
+compiling lv_table.c...
+compiling lv_port_indev.c...
+..\lvgl\porting\lv_port_indev.c(345): warning:  #177-D: function "encoder_handler"  was declared but never referenced
+  static void encoder_handler(void)
+..\lvgl\porting\lv_port_indev.c: 1 warning, 0 errors
+linking...
+sdram_debug\emwin_gui_demo.out: Warning: L6319W: Ignoring --keep command. Cannot find section *(.boot_hdr.dcd_data).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.shadow_blur_corner).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.lv_calendar_set_showed_date).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(i.CLOCK_GetFreq).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.indev_gesture).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.refr_position).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_get_next_word).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.fill_blended).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.scrollbar_init_draw_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_letter.o(i.lv_draw_sw_letter).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.grid_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.get_prop_core).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_move_to).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_elcdif.o(i.ELCDIF_RgbModeInit).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_set_prop_internal).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_handler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.lv_gradient_calculate).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_refresh_style).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.draw_cursor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.obj_del_core).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinbox.o(i.lv_spinbox_updatevalue).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_utf8_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.get_row_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_checkbox_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i._lv_indev_scroll_handler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_remove_style).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.draw_arcs).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.main).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.event_send_core).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.calc_content_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.draw_border).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.find_snap_point_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.find_snap_point_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.refr_invalid_areas).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.allocate_item).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_calculate_ext_draw_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_add_text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_layer.o(i.lv_draw_sw_layer_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_line).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.calc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i._lv_txt_get_next_line).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.focus_next_core).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.get_pressed_cell).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.lv_calendar_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_read_timer_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.anim_timer).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_prop_get_default).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_letter.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_set_page).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.lv_meter_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_area_is_visible).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.draw_border_simple).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i._ntoa_format).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i._lv_inv_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.indev_click_focus).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_add_char).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART_ReadBlocking).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.value_update).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_set_cursor_pos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_set_text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.draw_buf_flush).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.draw_box_label).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_scroll_by_bounded).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.get_local_style).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_remove_prop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.indev_pointer_proc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_switch_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_set_parent).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.grid_update).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.draw_outline).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.lv_port_indev_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.lv_obj_redraw).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_open).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_arrow.o(i.my_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.cont_scroll_end_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.invalidate_button_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_style_get_prop_inlined).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_get_prop_inlined).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.lv_roller_set_options).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_init_draw_line_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_color_hsv_to_rgb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_mem_buf_get).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.draw_label).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_class.o(i.lv_obj_class_create_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tileview.o(i.tileview_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_angle_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_built_in_info).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i._lv_disp_refr_timer).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_get_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.lv_tlsf_realloc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.refr_size_form_row).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.draw_box).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.map_set_px).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.lv_tabview_set_act).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_fs.o(i.lv_fs_seek).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_init_draw_arc_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.lv_refr_join_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font_fmt_txt.o(i.get_kern_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.fast_hsv2rgb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font.o(i.lv_font_get_glyph_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.trans_anim_ready_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(i.CLOCK_InitVideoPll).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching system_mimxrt1052.o(i.SystemInit).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_io.o(i.IO_Init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_init_draw_img_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_init_draw_label_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_built_in_read_line).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.inv_arc_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(i.CLOCK_GetPeriphClkFreq).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.draw_part_begin_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_arrow.o(i.month_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.position_knob).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font_fmt_txt.o(i.lv_font_get_glyph_dsc_fmt_txt).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.get_knob_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.indev_proc_release).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.get_trans_style).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.lv_gradient_get).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_switch_trigger_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_del_char).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_add_style).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.CLOCK_SetDiv).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.CLOCK_SetMux).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching clock_config.o(i.CLOCK_SetDiv).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching clock_config.o(i.CLOCK_SetMux).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_theme_default_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_math.o(i.lv_atan2).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_reset).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.fill_set_px).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i._lv_area_is_in).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.draw_list).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_remove_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_focus_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.trans_del).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i._ntoa_long_long).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.place_content).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i._lv_area_is_out).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_math.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_readjust_scroll).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.allocate_btn_areas_and_controls).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.draw_scrollbar).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.anim_ready_handler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_register_prop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_set_text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_clamp_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_clamp_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_set_options).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.inf_normalize).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.draw_placeholder).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_obj_add_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.layer_get_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_unicode_to_utf8).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_str.o(i.ConvertRadixNumToString).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_add_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_arc.o(i.get_rounded_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_transform.o(i.rgb_no_aa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.lv_grid_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_start).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_fs.o(i.lv_fs_open).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.color_blend_true_color_additive).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.color_blend_true_color_subtractive).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching board.o(i.SCB_DisableDCache).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_get_style_prop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_move_to_index).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.get_knob_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinner.o(i.lv_spinner_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_transform.o(i.transform_point_upscaled).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching board.o(i.SCB_EnableDCache).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching system_mimxrt1052.o(i.SCB_EnableDCache).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.refr_obj_and_children).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_dropdown.o(i.my_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.transform_point).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.highlight_update).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_back_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_debug_console.o(i.DbgConsole_Init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.indev_button_proc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_transform.o(i.rgb565a8_no_aa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.insert_free_block).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_set_value_with_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.list_release_handler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.get_center).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.lv_roller_set_selected).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_elcdif.o(i.ELCDIF_GetInstance).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART_GetInstance).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.draw_buf_rotate_90_sqr).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_split).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_ins_text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.lv_roller_label_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_gpio.o(i.GPIO_GetInstance).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.lv_refr_get_top_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw.o(i.lv_draw_sw_init_ctx).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.color_blend_true_color_multiply).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_refr_main_header_mode).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_remove).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.get_angle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.draw_buf_rotate_180).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_layer.o(i.lv_draw_sw_layer_blend).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.lv_tlsf_add_pool).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_pit.o(i.PIT_GetInstance).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_pit.o(i.PIT_Init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.layout_update_core).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_set_end_angle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_set_start_angle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_list_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.lv_roller_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.start_cursor_blink).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_gpio.o(i.GPIO_PinSetInterruptConfig).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.event_is_bubbled).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_search_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_transform.o(i.argb_no_aa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.pwd_char_hider).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.btn_release_handler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.get_sel_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching pin_mux.o(i.CLOCK_ControlGate).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_elcdif.o(i.CLOCK_ControlGate).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.CLOCK_ControlGate).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_gpio.o(i.CLOCK_ControlGate).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_pit.o(i.CLOCK_ControlGate).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.get_max_row).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.search_suitable_block).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_set_long_mode).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_clear_flag).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_del).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i._lv_area_intersect).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_set_bg_end_angle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_set_bg_start_angle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_set_one_line).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching hal_lcd.o(i.APP_FillFrameBuffer).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_built_in_line_true_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.get_index_from_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_colorwheel_set_hsv).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.refr_knob_pos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_win.o(i.lv_win_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_set_options_static).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_cursor_down).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw.o(i.lv_draw_sw_buffer_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.double_click_reset).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_color_brightness).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_get_selected_str).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.cursor_blink_anim_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching board.o(i.SCB_EnableICache).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART_GetDefaultConfig).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching system_mimxrt1052.o(i.SCB_EnableICache).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_layer.o(i.lv_draw_layer_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_is_any).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_rect.o(i.lv_draw_rect_dsc_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i._ntoa_long).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_disp.o(i.lv_port_disp_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_add_flag).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching pin_mux.o(i.BOARD_InitI2C1Pins).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching board.o(i.BOARD_DebugConsoleSrcFreq).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART_WriteBlocking).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_gpio.o(i.GPIO_PinWrite).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.scroll_limit_diff).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.lv_color_mix_premult).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_img.o(i.lv_color_mix_premult).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_keyboard.o(i.lv_keyboard_update_ctrl_map).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tileview.o(i.lv_tileview_tile_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_chart_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_get_indev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_class.o(i.lv_obj_class_init_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_remove_local_style_prop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.layer_alpha_test).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_drv_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_memset).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i._out_rev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.lv_example_led_1).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_memset_ff).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.remove_free_block).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_set_text_fmt).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_cursor_up).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_draw_img).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_chart_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_math.o(i.lv_trigo_sin).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_revert_dots).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_move_children_by).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_transform_point).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_memset_00).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_slider_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.BOARD_InitLcd).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(i.CLOCK_GetSysPfdFreq).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(i.CLOCK_GetUsb1PfdFreq).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_send).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_content_coords).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_get_info).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_value_changed_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.lv_tabview_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_set_start_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.position_to_selected).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.get_id_on_point).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img.o(i.lv_img_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_arrow.o(.conststring).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_log.o(i.LOG_Push).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinbox.o(i.lv_spinbox_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_set_dot_tmp).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_hit_test).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_set_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_gpio.o(i.GPIO_PinInit).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.calculate_layer_type).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_layer.o(i.lv_draw_sw_layer_adjust).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_indev.o(i.lv_indev_drv_register).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i._lv_area_join).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.auto_hide_characters).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.char_is_accepted).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.draw_knob).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching uldiv.o(.text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_layout_register).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i._lv_img_decoder_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_del).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i._lv_txt_ins).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_utf8_prev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_get_btn_text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.get_selected_label_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_refresh_ext_draw_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_fs.o(i.lv_fs_read).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_math.o(i.lv_bezier3).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i._lv_obj_scroll_by_raw).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_cache.o(i._lv_img_cache_open).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_color_fill).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.get_indev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_set_editing).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.report_style_change_core).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.draw_buf_rotate_90).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.lv_color_to32).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinbox.o(i.lv_spinbox_increment).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(i.CLOCK_InitArmPll).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(i.CLOCK_InitUsb1Pll).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART_ClearStatusFlags).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_allocate_spec_attr).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i._lv_obj_style_apply_color_filter).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_get_disp).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_arc.o(i.lv_draw_arc_dsc_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_line.o(i.lv_draw_line_dsc_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_apply).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.free_item).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_colorwheel_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinbox.o(i.lv_spinbox_decrement).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_palette_lighten).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_mem_alloc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_exec).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_set_btn_ctrl).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_table_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.lv_tlsf_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpi2c.o(i.LPI2C_CommonIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_invalidate).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_is_visible).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.grey_filter_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_dropdown.o(i.value_changed_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_list.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_msgbox.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_palette_darken).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_locate_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_utils.o(i._lv_utils_bsearch).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_set_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.has_popovers_in_top_row).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.keypad_read).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.show_error).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.indev_proc_reset_query_handler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_update_layout).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_get_local_style_prop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_label.o(i.hex_char_to_num).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_flex_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_arrow.o(i.value_changed_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_indev.o(i._lv_indev_read).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_point_within_circle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_merge_prev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_trim_used).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i._lv_txt_set_text_vfmt).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.insert_handler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.get_angle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_merge_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching hal_lcd.o(i.APP_ELCDIF_Init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_img_cf_get_px_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_label.o(i.lv_draw_label_dsc_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.get_day_of_week).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_keyboard.o(i.lv_keyboard_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinbox.o(i.lv_spinbox_step_prev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i._lv_style_prop_lookup_flags).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_trim_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i._lv_txt_cut).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_utf8_conv_wc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_obj_event_base).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_line_angle_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_fs.o(i.lv_fs_close).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.list_press_handler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_set_cursor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.lv_indev_scroll_throw_predict).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_end).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.trans_anim_start_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_free_param).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.lv_gradient_set_cache_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_dropdown.o(i.year_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.lv_tabview_event).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_mem_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i._lv_txt_is_cmd).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_click_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_invalidate_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_math.o(i.lv_map).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_io.o(i.IO_Transfer).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_assert.o(i.__aeabi_assert).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_scrollbar_invalidate).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_calculate_style_text_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_report_style_change).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.call_flush_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.lv_color_mix).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_transform.o(i.lv_color_mix).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_color_mix).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_dropdown.o(i.month_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_color_mix).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font_fmt_txt.o(i.lv_font_get_bitmap_fmt_txt).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_path_ease_out).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_color_mix).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_mem_realloc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_table_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_elcdif.o(i.ELCDIF_Reset).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_layer.o(i.lv_draw_layer_destroy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_transform.o(i.lv_draw_transform).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.get_next_item).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.get_month_length).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_path_ease_in_out).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_debug_console.o(i.DbgConsole_Printf).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.refresh_children_style).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i._lv_draw_mask_cleanup).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_add).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.iterate_cache).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_set_flex_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_led_set_brightness).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_ins_head).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_ins_tail).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_clear_btn_ctrl).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_get_password_bullet).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching memmovea.o(.text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_debug_console.o(i.DbgConsole_RelocateLog).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_content_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_content_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_get_index).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img.o(i.lv_img_get_transformed_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_set_text_static).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.label_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.BOARD_InitLcdifPixelClock).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_refocus).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_get_child).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_arc.o(i.lv_draw_arc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.circ_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.next_in_cache).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.lv_draw_sw_rect).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_color_white).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_color_black).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tileview.o(i.lv_tileview_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_mem_buf_free_all).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_utf8_get_byte_id).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_utf8_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_clear_selection).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_scroll_to_view_recursive).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_img_cf_has_alpha).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i._lv_area_is_on).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_math.o(i.lv_pow).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_prepare_used).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.mapping_insert).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img.o(i.lv_img_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching hal_lcd.o(i.APP_LCDIF_IRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_get_draw_ctx).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_is_layout_positioned).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_scroll_to_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_scroll_to_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_rect.o(i.lv_draw_rect).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_disp_dpx).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tileview.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_get).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_fs.o(i.lv_fs_get_ext).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_transition_dsc_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i._lv_txt_encoded_letter_next_2).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_checkbox_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.touchpad_read).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.scroll_throw_predict_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.scroll_throw_predict_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_draw_img_dsc_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_built_in_close).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_page_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_get_hor_res).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_get_ver_res).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.control_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_anim_ready).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_mark_layout_as_dirty).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_set_scrollbar_mode).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_remove_custom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_read_line).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i._lv_anim_core_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_refresh_self_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_img_src_get_type).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.lv_draw_sw_blend).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.get_tick_gsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.next_color_mode).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_absorb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_set_selected_btn).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_set_selected).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdownlist_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_get_point).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_set_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_set_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_set_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_set_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme.o(i.lv_theme_apply).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_color_make).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_label.o(i.lv_color_make).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_rect.o(i.lv_color_make).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_color_make).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.draw_axes).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.anim_mark_list_change).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_color_make).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_palette_main).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_fs.o(i.lv_fs_get_drv).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_clear).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_mem_buf_release).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i.lv_snprintf).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_color_make).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_reset).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.adjust_request_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.mapping_search).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_set_ext_draw_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_draw_img_decoded).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_line.o(i.lv_draw_line).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.lv_calendar_set_today_date).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.lv_tlsf_create_with_pool).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(.conststring).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i._lv_event_mark_deleted).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_obj_get_event_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_send_data).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_set_local_style_prop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.get_next_line).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.btns_value_changed_event_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_path_linear).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.lv_tlsf_malloc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_close).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_dot_tmp_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.button_read).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_class.o(i.lv_obj_construct).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_class.o(i.lv_obj_is_editable).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_class.o(i.lv_obj_is_group_def).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.is_leap_year).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font.o(i.lv_font_get_glyph_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_indev.o(i.lv_indev_drv_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i._atoi).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_clear_btn_ctrl_all).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_set_btn_ctrl_all).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_switch_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_del_char_forward).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_focus_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_focus_prev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_close).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_style_set_pad_all).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_utf8_get_char_id).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_txt_utf8_get_length).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_has_btn_ctrl).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.make_one_button_checked).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_disp.o(i.lv_disp_is_invalidation_enabled).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_get_scroll_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_get_vect).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_class.o(i._lv_obj_destruct).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_back_btn_is_root).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinbox.o(i.lv_spinbox_step_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.inv_knob_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_get_start_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_disp.o(i.disp_flush).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_gpio.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_log.o(i.LOG_Init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_scroll_to).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme.o(i.lv_theme_get_color_primary).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_draw_mask_remove_id).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.mask_mix).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_set_flex_flow).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_colorwheel_get_rgb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_keyboard.o(i.lv_keyboard_update_map).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_cont_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_get_len).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i.lv_vsnprintf).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_del).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_insert).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_remove).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.lv_tlsf_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_get_text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching memseta.o(.text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_log.o(i.LOG_Pop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_class.o(i.get_instance_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_bg_color_filtered).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_text_color_filtered).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.kill_oldest_item).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_color_hex).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_draw_buf_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_speed_to_time).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_area_get_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_area_increase).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_area_move).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.align_ptr).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_set_ctrl_map).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_line.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.PIT_IRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching board.o(i.CLOCK_GetDiv).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(i.CLOCK_GetOscFreq).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_flexspi_nor_boot.o(.boot_hdr.ivt).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_get_scroll_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_add_state).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_clear_state).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_self_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_self_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme.o(i.apply_theme).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_get_style_flex_grow).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_set_style_flex_cross_place).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_set_style_flex_flow).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_set_style_flex_grow).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_set_style_flex_main_place).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_set_style_flex_track_place).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.get_col_pos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.get_col_span).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.get_row_pos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.get_row_span).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.style_init_reset).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_led_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font_fmt_txt.o(i.kern_pair_16_compare).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font_fmt_txt.o(i.kern_pair_8_compare).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_tick.o(i.lv_tick_get).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_color_darken).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btn.o(i.lv_btn_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_list_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img.o(i.lv_img_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_create).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.button_get_pressed_id).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.mouse_read).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching llushr.o(.text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_style_border_post).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_style_clip_corner).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_set_pos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_set_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_set_scroll_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_get_screen).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_label.o(i.lv_draw_letter).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.find_oldest_item_life).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.lv_draw_sw_bg).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_set_flex_grow).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.calc_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_led_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_clear_history).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.lv_meter_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.lv_meter_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.lv_obj_get_style_arc_rounded).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font.o(i.lv_font_get_glyph_bitmap).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.align_up).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_checkbox_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.is_slider_horizontal).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_slider_get_mode).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_cursor_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching llshl.o(.text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching board.o(i.BOARD_InitDebugConsole).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART1_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART2_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART3_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART4_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART5_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART6_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART7_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART8_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.indev_reset_check).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_y2).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_set_layout).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.scroll_x_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.scroll_y_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme.o(i.lv_theme_get_from_obj).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.get_col_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.get_row_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.dark_color_filter_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_arrow.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar_header_dropdown.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinbox.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinner.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_win.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_get_dpi).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_get_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_indev.o(i.lv_indev_get_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_tick.o(i.lv_tick_inc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i.node_set_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_mem.o(i.lv_mem_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_time_remaining).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.align_down).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_can_split).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_prev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btn.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_line.o(i.lv_line_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_line.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_cursor_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching strcmp.o(.text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(.conststring).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching pin_mux.o(i.IOMUXC_SetPinMux).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching hal_lcd.o(i.__NVIC_EnableIRQ).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching clock_config.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_disp.o(i.lv_disp_get_layer_sys).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_disp.o(i.lv_disp_get_layer_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_disp.o(i.lv_disp_get_scr_act).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_disp.o(i.lv_disp_get_scr_prev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_reset_long_press).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_set_scroll_snap_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_set_scroll_snap_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.draw_buf_rotate4).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_img_cf_is_chroma_keyed).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_tick.o(i.lv_tick_elaps).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i.node_set_prev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_arc_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_bg_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_bg_grad_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_border_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_line_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_outline_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_shadow_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_text_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_mark_as_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_mark_as_used).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_set_angles).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_set_bg_angles).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btn.o(i.lv_btn_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_set_one_checked).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching hal_lcd.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_style_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_style_bg_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_style_layout).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_style_radius).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_style_transform_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_style_transform_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_blend_mode).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_outline_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_outline_pad).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_outline_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_shadow_ofs_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_shadow_ofs_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_shadow_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_shadow_spread).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_shadow_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_base_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_border_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_layout).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_style_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_style_base_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_style_border_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_get_style_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_style_prop_has_flag).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_base_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_bg_img_src).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_layout).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_min_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_text_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style_gen.o(i.lv_obj_set_style_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_layer.o(i.lv_draw_layer_adjust).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_layer.o(i.lv_draw_layer_blend).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_get_style_base_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_get_style_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_get_style_pad_column).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_get_style_pad_row).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_obj_get_style_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.lv_obj_get_style_base_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.lv_obj_get_style_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.lv_obj_get_style_pad_column).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.lv_obj_get_style_pad_row).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.lv_obj_get_style_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_style_set_pad_gap).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_style_set_pad_hor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_style_set_pad_ver).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_style_set_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_obj_get_style_border_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_obj_get_style_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_obj_get_style_pad_column).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_chart.o(i.lv_obj_get_style_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_obj_get_style_arc_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_led_set_color).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_page_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_section_constructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.lv_obj_get_style_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.lv_obj_get_style_base_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_is_empty).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_set_prop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i._lv_timer_core_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_txt.o(i.lv_memcpy_small).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_obj_get_style_arc_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_obj_get_style_pad_column).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_obj_get_style_pad_row).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_obj_get_style_pad_column).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_obj_get_style_text_letter_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_obj_get_style_text_line_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.get_label).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_is_open).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_obj_get_style_border_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_obj_get_style_text_line_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_get_dot_tmp).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_obj_get_style_text_letter_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_obj_get_style_text_line_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_obj_get_style_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_line.o(i.lv_obj_get_style_line_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.lv_obj_get_style_border_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.lv_obj_get_style_text_line_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_obj_get_style_base_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_obj_get_style_transform_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_obj_get_style_transform_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_base_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_max_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_min_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_text_letter_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_text_line_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_obj_get_style_border_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_obj_get_style_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_obj_get_style_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_obj_get_style_text_line_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_pct).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.encoder_read).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching hal_lcd.o(i.BOARD_EnableLcdInterrupt).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_get_focused).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_check_type).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_has_flag).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_get_style_text_font).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_coords).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_set_ext_click_area).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_label.o(i.lv_color_black).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.circ_cont).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_rect.o(i.lv_color_black).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_rect.o(i.lv_color_white).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.find_item).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.get_cache_item_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_grid.o(i.count_tracks).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.invalidate_knob).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_color.o(i.lv_color_black).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.tlsf_ffs).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.tlsf_fls).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_set_rotation).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_get_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_checkbox.o(i.lv_obj_get_style_text_font).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_obj_get_style_text_font).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_set_text_sel_end).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_set_text_sel_start).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_obj_get_style_anim_speed).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_obj_get_style_text_font).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.set_ofs_x_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.set_ofs_y_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.lv_obj_get_style_text_font).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.lv_obj_get_style_text_font).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_obj_get_style_text_font).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_set_cursor_click_pos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.GPIO_WritePinOutput).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_group).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_has_flag_any).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_has_state).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_dir).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_snap_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_snap_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_x).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scroll_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_obj_get_scrollbar_mode).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_get_child_cnt).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_theme_default_get).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_theme_default_is_inited).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_obj_remove_style_all).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_get_prop).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_anim_time).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_arc_rounded).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_arc_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_bg_img_src).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_bg_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_border_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_border_post).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_border_side).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_border_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_clip_corner).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_color_filter_dsc).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_color_filter_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_line_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_max_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_max_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_outline_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_outline_pad).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_outline_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_pad_bottom).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_pad_column).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_pad_left).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_pad_right).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_pad_row).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_pad_top).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_radius).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_shadow_ofs_y).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_shadow_opa).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_shadow_spread).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_shadow_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_text_align).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_text_font).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_text_line_space).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_transform_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_transform_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_transition).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style_gen.o(i.lv_style_set_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_is_last).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.scroll_anim_ready_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_slider_set_left_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_slider_set_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_switch_anim_ready).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.is_valid_but_non_printable_char).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_wait_release).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i._lv_obj_get_ext_draw_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i._lv_obj_get_layer_type).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_draw.o(i.lv_obj_draw_dsc_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_obj_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.lv_gradient_cleanup).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_img.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_anim.o(i.lv_anim_path_step).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i._is_digit).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_is_empty).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_ready).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_link_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_get_mode).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_switch_anim_exec_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_switch.o(i.lv_switch_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_area_copy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_get_one_line).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching strcpy.o(.text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_clock.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpi2c.o(i.LPI2C1_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpi2c.o(i.LPI2C2_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpi2c.o(i.LPI2C3_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpi2c.o(i.LPI2C4_DriverIRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_lpuart.o(i.LPUART_GetStatusFlags).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_flexspi_nor_boot.o(.boot_hdr.boot_data).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_disp.o(i.lv_disp_get_theme).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i._lv_group_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_get_editing).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.scroll_anim_ready_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i._lv_obj_style_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_tree.o(i.lv_obj_get_parent).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw.o(i.lv_draw_wait_for_finish).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.circ_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_gradient.o(i.compute_key).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_colorwheel.o(i.lv_trigo_cos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.lv_trigo_cos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinner.o(i.arc_anim_end_angle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinner.o(i.arc_anim_start_angle).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_fs.o(i._lv_fs_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i._lv_style_get_prop_group).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.get_button_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdownlist_destructor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.set_y_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching emwin_gui_demo.o(i.lv_scr_act).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching pin_mux.o(i.CLOCK_EnableClock).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_elcdif.o(i.CLOCK_EnableClock).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_get_type).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev_scroll.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_label.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_mask.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_blend.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_img.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_img.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_layer.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_layer.o(i.lv_draw_sw_layer_destroy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_line.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_rect.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_flex.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_calendar.o(i.lv_calendar_get_showed_date).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_led_off).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_led.o(i.lv_led_on).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_meter.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.lv_tabview_get_content).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.lv_tabview_get_tab_btns).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_area_set).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_get_next).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_bar.o(i.lv_bar_init_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_area_get_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_area_get_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.get_label).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.pwd_char_hider_anim_ready).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching strlen.o(.text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching pin_mux.o(i.IOMUXC_SetPinConfig).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_get_default).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_group.o(i.lv_group_get_obj_count).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_get_act).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_get_obj_act).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_indev.o(i.lv_indev_set_button_points).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_enable_style_refresh).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i._lv_refr_get_disp_refreshing).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_img.o(i.draw_cleanup).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_get_cur_main_page).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_menu.o(i.lv_menu_get_cur_sidebar_page).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tabview.o(i.lv_tabview_get_tab_act).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_extra.o(i.lv_extra_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_flush_ready).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_get_default).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_area_set_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_area.o(i.lv_area_set_width).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_fs.o(i.lv_fs_get_real_path).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_get_head).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_get_prev).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_ll.o(i._lv_ll_get_tail).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_enable).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_set_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_arc.o(i.lv_arc_get_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.lv_btnmatrix_get_selected_btn).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_dropdown_get_selected).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_get_text).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_get_text_selection_end).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_label_get_text_selection_start).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_slider_get_left_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_slider.o(i.lv_slider_get_value).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_table.o(i.is_cell_empty).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_get_accepted_chars).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_get_cursor_pos).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_textarea_get_max_length).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_get_code).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj.o(i.lv_obj_get_state).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font_fmt_txt.o(i.unicode_list_compare).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_style.o(i.lv_style_set_prop_helper).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_is_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_is_prev_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_set_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_set_prev_free).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_set_prev_used).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_set_used).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching hal_lcd.o(i.LCDIF_IRQHandler).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_elcdif.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_pos.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_anim_set_values).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_anim_set_values).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_style_get_selector_part).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw_polygon.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinner.o(i.lv_anim_set_values).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_hal_disp.o(i.lv_disp_get_draw_buf).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i._out_buffer).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_from_ptr).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.block_to_ptr).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_get_checked).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_is_checkable).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_is_checked).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_is_click_trig).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_is_hidden).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_is_inactive).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_is_popover).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_is_recolor).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_btnmatrix.o(i.button_is_repeat_disabled).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_dropdown.o(i.lv_font_get_line_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_anim_set_values).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_font_get_line_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_roller.o(i.lv_font_get_line_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_anim_set_values).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_font_get_line_height).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.mouse_get_xy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.touchpad_get_xy).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching fsl_pit.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_get_current_target).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_get_param).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_get_target).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_event.o(i.lv_event_get_user_data).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_anim_set_delay).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_obj_style_get_selector_state).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_pause).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_timer.o(i.lv_timer_resume).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.lv_tlsf_size).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.offset_to_block).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_anim_set_repeat_count).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.button_is_pressed).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_anim_set_exec_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_anim_set_path_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_scroll.o(i.lv_anim_set_time).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_anim_set_exec_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_anim_set_ready_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_anim_set_time).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_obj_style.o(i.lv_anim_set_var).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_set_close_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_set_info_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_set_open_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_decoder.o(i.lv_img_decoder_set_read_line_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_theme_default.o(i.lv_color_filter_dsc_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_spinner.o(i.lv_anim_set_exec_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_tlsf.o(i.lv_tlsf_pool_overhead).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_anim_set_exec_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_anim_set_playback_time).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_anim_set_time).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_label.o(i.lv_anim_set_var).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_anim_set_exec_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_anim_set_path_cb).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_anim_set_time).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.lv_anim_set_var).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.keypad_get_key).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.mouse_is_pressed).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.touchpad_is_pressed).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching system_mimxrt1052.o(i.SystemInitHook).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_refr.o(i._lv_refr_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw.o(i.lv_draw_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_img_cache.o(i.lv_img_cache_invalidate_src).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_draw_sw.o(i.lv_draw_sw_wait_for_finish).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_font_fmt_txt.o(i._lv_font_clean_up_fmt_txt).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_printf.o(i._out_null).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_textarea.o(i.pwd_char_hider_anim).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_disp.o(i.disp_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.button_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.encoder_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.keypad_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.mouse_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching lv_port_indev.o(i.touchpad_init).
+sdram_debug\emwin_gui_demo.out: Error: L6406E: No space in execution regions with .ANY selector matching evkbimxrt1050_sdram_ini_dcd.o(.constdata).
+sdram_debug\emwin_gui_demo.out: Error: L6407E: Sections of aggregate size 0x16dcc bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 1 warning and 1251 error messages.
+"sdram_debug\emwin_gui_demo.out" - 1251 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.MIMXRT1052_DFP.10.0.1.pack
+                NXP.MIMXRT1052_DFP.10.0.1
+                Device Family Pack for MIMXRT1052
+
+<h2>Collection of Component include folders:</h2>
+  E:\mdk\exe\NXP\MIMXRT1052_DFP\10.0.1
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:45
+</pre>
+</body>
+</html>

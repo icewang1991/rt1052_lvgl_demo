@@ -1,0 +1,9 @@
+flexspi_nor_debug\qrcodegen.o: ..\lvgl\src\extra\libs\qrcode\qrcodegen.c
+flexspi_nor_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\assert.h
+flexspi_nor_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\limits.h
+flexspi_nor_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdlib.h
+flexspi_nor_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h
+flexspi_nor_debug\qrcodegen.o: ..\lvgl\src\extra\libs\qrcode\qrcodegen.h
+flexspi_nor_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdbool.h
+flexspi_nor_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+flexspi_nor_debug\qrcodegen.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h

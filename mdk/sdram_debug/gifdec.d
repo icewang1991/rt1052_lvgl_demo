@@ -1,0 +1,16 @@
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\gifdec.c
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\gifdec.h
+sdram_debug\gifdec.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdint.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/lv_fs.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/../lv_conf_internal.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/../lv_conf_kconfig.h
+sdram_debug\gifdec.o: ..\lvgl\lv_conf.h
+sdram_debug\gifdec.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdbool.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/lv_log.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/lv_types.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/lv_mem.h
+sdram_debug\gifdec.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stddef.h
+sdram_debug\gifdec.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\string.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/lv_color.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/lv_assert.h
+sdram_debug\gifdec.o: ..\lvgl\src\extra\libs\gif\../../../misc/lv_math.h
