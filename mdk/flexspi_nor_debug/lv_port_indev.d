@@ -129,3 +129,4 @@ flexspi_nor_debug\lv_port_indev.o: ..\lvgl/src/extra/widgets/colorwheel/lv_color
 flexspi_nor_debug\lv_port_indev.o: ..\lvgl/src/extra/widgets/led/lv_led.h
 flexspi_nor_debug\lv_port_indev.o: ..\lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h
 flexspi_nor_debug\lv_port_indev.o: ..\lvgl/src/extra/widgets/span/lv_span.h
+flexspi_nor_debug\lv_port_indev.o: ..\service\hal\touch_drv.h

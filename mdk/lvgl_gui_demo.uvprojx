@@ -395,6 +395,11 @@
               <FileType>1</FileType>
               <FilePath>..\service\main\lvgl_demo.c</FilePath>
             </File>
+            <File>
+              <FileName>touch_drv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\service\hal\touch_drv.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -484,6 +489,16 @@
               <FileName>fsl_lpuart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\fsl_lib\fsl_lpuart.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\fsl_lib\fsl_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_tsc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\fsl_lib\fsl_tsc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1914,6 +1929,11 @@
               <FileType>1</FileType>
               <FilePath>..\service\main\lvgl_demo.c</FilePath>
             </File>
+            <File>
+              <FileName>touch_drv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\service\hal\touch_drv.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2003,6 +2023,16 @@
               <FileName>fsl_lpuart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\fsl_lib\fsl_lpuart.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\fsl_lib\fsl_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_tsc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\fsl_lib\fsl_tsc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4142,6 +4172,11 @@
               <FileType>1</FileType>
               <FilePath>..\service\main\lvgl_demo.c</FilePath>
             </File>
+            <File>
+              <FileName>touch_drv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\service\hal\touch_drv.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -4231,6 +4266,16 @@
               <FileName>fsl_lpuart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\fsl_lib\fsl_lpuart.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\fsl_lib\fsl_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_tsc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\fsl_lib\fsl_tsc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -5662,6 +5707,11 @@
               <FileType>1</FileType>
               <FilePath>..\service\main\lvgl_demo.c</FilePath>
             </File>
+            <File>
+              <FileName>touch_drv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\service\hal\touch_drv.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -5751,6 +5801,16 @@
               <FileName>fsl_lpuart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\fsl_lib\fsl_lpuart.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\fsl_lib\fsl_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_tsc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\fsl_lib\fsl_tsc.c</FilePath>
             </File>
           </Files>
         </Group>

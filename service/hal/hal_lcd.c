@@ -103,32 +103,32 @@ void APP_ELCDIF_Init(void)
  ******************************************************************************/
 
 /* Touch driver handle. */
-static ft5406_rt_handle_t touchHandle;
+//static ft5406_rt_handle_t touchHandle;
 
-static void BOARD_Touch_Init(void)
-{
-    lpi2c_master_config_t masterConfig = {0};
-    /*
-    * masterConfig.debugEnable = false;
-    * masterConfig.ignoreAck = false;
-    * masterConfig.pinConfig = kLPI2C_2PinOpenDrain;
-    * masterConfig.baudRate_Hz = 100000U;
-    * masterConfig.busIdleTimeout_ns = 0;
-    * masterConfig.pinLowTimeout_ns = 0;
-    * masterConfig.sdaGlitchFilterWidth_ns = 0;
-    * masterConfig.sclGlitchFilterWidth_ns = 0;
-    */
-    LPI2C_MasterGetDefaultConfig(&masterConfig);
+//static void BOARD_Touch_Init(void)
+//{
+//    lpi2c_master_config_t masterConfig = {0};
+//    /*
+//    * masterConfig.debugEnable = false;
+//    * masterConfig.ignoreAck = false;
+//    * masterConfig.pinConfig = kLPI2C_2PinOpenDrain;
+//    * masterConfig.baudRate_Hz = 100000U;
+//    * masterConfig.busIdleTimeout_ns = 0;
+//    * masterConfig.pinLowTimeout_ns = 0;
+//    * masterConfig.sdaGlitchFilterWidth_ns = 0;
+//    * masterConfig.sclGlitchFilterWidth_ns = 0;
+//    */
+//    LPI2C_MasterGetDefaultConfig(&masterConfig);
 
-    /* Change the default baudrate configuration */
-    masterConfig.baudRate_Hz = BOARD_TOUCH_I2C_BAUDRATE;
+//    /* Change the default baudrate configuration */
+//    masterConfig.baudRate_Hz = BOARD_TOUCH_I2C_BAUDRATE;
 
-    /* Initialize the LPI2C master peripheral */
-    LPI2C_MasterInit(BOARD_TOUCH_I2C, &masterConfig, BOARD_TOUCH_I2C_CLOCK_FREQ);
+//    /* Initialize the LPI2C master peripheral */
+//    LPI2C_MasterInit(BOARD_TOUCH_I2C, &masterConfig, BOARD_TOUCH_I2C_CLOCK_FREQ);
 
-    /* Initialize the touch handle. */
-    FT5406_RT_Init(&touchHandle, BOARD_TOUCH_I2C);
-}
+//    /* Initialize the touch handle. */
+//    FT5406_RT_Init(&touchHandle, BOARD_TOUCH_I2C);
+//}
 
 void BOARD_Touch_Deinit(void)
 {

@@ -18,6 +18,8 @@ flexspi_nor_debug\lvgl_demo.o: E:\mdk\exe\ARM\ARMCC\Bin\..\include\stdlib.h
 flexspi_nor_debug\lvgl_demo.o: ..\fsl_lib\fsl_clock.h
 flexspi_nor_debug\lvgl_demo.o: ..\fsl_lib\fsl_common.h
 flexspi_nor_debug\lvgl_demo.o: ..\fsl_lib\fsl_pit.h
+flexspi_nor_debug\lvgl_demo.o: ..\fsl_lib\fsl_tsc.h
+flexspi_nor_debug\lvgl_demo.o: ..\fsl_lib\fsl_adc.h
 flexspi_nor_debug\lvgl_demo.o: ..\board\board.h
 flexspi_nor_debug\lvgl_demo.o: ..\board\clock_config.h
 flexspi_nor_debug\lvgl_demo.o: ..\fsl_lib\fsl_gpio.h
@@ -155,3 +157,4 @@ flexspi_nor_debug\lvgl_demo.o: ..\lvgl\porting\lv_port_indev.h
 flexspi_nor_debug\lvgl_demo.o: ..\service\lvgl_demo\widgets\lv_demo_widgets.h
 flexspi_nor_debug\lvgl_demo.o: ..\service\lvgl_demo\widgets\../lv_demos.h
 flexspi_nor_debug\lvgl_demo.o: ..\service\lvgl_demo\widgets\../widgets/lv_demo_widgets.h
+flexspi_nor_debug\lvgl_demo.o: ..\service\hal\touch_drv.h

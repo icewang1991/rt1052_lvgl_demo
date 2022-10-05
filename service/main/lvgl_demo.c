@@ -35,6 +35,8 @@
 #include "fsl_device_registers.h"
 #include "fsl_debug_console.h"
 #include "fsl_pit.h"
+#include "fsl_tsc.h"
+#include "fsl_adc.h"
 #include "board.h"
 #include  "hal_lcd.h"
 #include "pin_mux.h"
@@ -44,7 +46,10 @@
 #include "lv_port_disp.h"
 #include "lv_port_indev.h"
 #include "lv_demo_widgets.h"
+#include "touch_drv.h"
+
 #define PIT_SOURCE_CLOCK CLOCK_GetFreq(kCLOCK_OscClk)
+
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
@@ -162,15 +167,14 @@ int main(void)
 
     /* Enable at the NVIC */
     EnableIRQ(PIT_IRQn);
-
    
-	
 		APP_ELCDIF_Init();
-	
+		touch_drv_init();
 		lv_init();			  // 
 		lv_port_disp_init();  // 
 		lv_port_indev_init(); // 
 		PIT_StartTimer(PIT, kPIT_Chnl_0);
+		calib_touch();
 		lv_demo_widgets();
     while (1)
     {
